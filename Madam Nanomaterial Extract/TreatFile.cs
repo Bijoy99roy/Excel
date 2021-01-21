@@ -19,6 +19,7 @@ namespace Madam_Nanomaterial_Extract
             wb = new Workbook(@"D:\Bassetii\C#\Madam Nanomaterial Extract\Madam Nanomaterial Extract\3.2.H-DFR-Nanomaterials Report.xlsm");
             Worksheet sheet = wb.Worksheets["Raw_Data"];
             Worksheet sheet1 = wb.Worksheets[1];
+            Console.WriteLine("hi");
            
             nanomaterials = new Dictionary<string, NanomaterialsModel>();
             nanomaterialsList = new List<NanomaterialsModel>();
